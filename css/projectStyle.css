@@ -1,0 +1,168 @@
+body {
+    background-color: #87ceeb;
+    margin: 0px;
+}
+main {
+    background-color: #cfba9f;
+    height: calc(80vh - 300px);
+    
+}
+
+footer {
+    height: 20vh;
+    background-image:url(../img/floor3.jpg);
+    
+}
+
+#top-img {
+    background:url(../img/tside.png);
+    height: 300px;
+}
+.text {
+    font-family: Verdana, Tahoma;
+    color: black;
+    font-size: 1.1vw;
+    text-align: justify;
+    font-weight: 500;
+}
+#project-text {
+    position: absolute;
+    top: 180px;
+    right: 0;
+    left: 0;
+    margin-left: calc(40vw + 110px);
+    margin-right: 20px;
+}
+#project-text-info {
+    position: absolute;
+    top: 52vh;
+    right: 0;
+    left: 0;
+    margin-left: 56vw ;
+}
+#tv {
+    background:url(../img/tv.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    height: 40vh;
+    width: 40vw;
+    top: 190px;
+    left: 50px;
+    padding: 0.4% 0.7% 0.5% 0.7%;
+}
+#slider {
+    height: 100%;
+    width: 100%;
+}
+div {
+    position:absolute;
+  }
+.hide {
+    display: none;
+}
+#sliderFG, #sliderBG {
+    position:absolute;
+    height: 0px;
+    width: 0px;
+    font-size:10px;
+    font-family: Verdana, Tahoma;
+    color: rgb(255, 255, 255);
+    overflow:hidden;
+  }
+#sofa {
+    background: url(../img/sofa.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    height: 25vh;
+    width: 28vw;
+    left: 80px;
+    bottom: calc(20vh - 90px);
+}
+#control-panel {
+    background: url(../img/controlPanel.png);
+    background-size: 100% 100%;
+    height: 5vh;
+    width: 3vw;
+    margin-top: 8vh;
+    margin-left: 3vw;
+    cursor:pointer;
+}
+#flower {
+    background: url(../img/flower.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    height: 30vh;
+    width: 10vw;
+    left: calc(28vw + 100px);
+    bottom: calc(20vh - 50px);
+}
+#nav {
+    position: absolute;
+    right: 0;
+    bottom: calc(100vh - 300px - calc(80vh - 310px));
+    height: 7vh;
+    width: 45vw;
+}
+#info {
+    background: url(../img/info.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    height: 32vh;
+    width: 9vw;
+    left: calc(38vw + 115px);
+    bottom: calc(20vh - 50px);
+    cursor:pointer;
+    
+}
+#page-id {
+    position: absolute;
+    visibility: hidden;
+}
+#go-next {
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+#go-back {
+    position: absolute;
+    left: 0;
+    width: 50%;
+}
+
+.arrow-txt {
+    font-family: Verdana, Tahoma;
+    color: #337AB7;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 2vw;
+    height: 2vw;
+    line-height:2vw;
+    display: inline-block; 
+    margin: 20px;
+}
+.arrow-txt .arrow-icon-right {
+    background: url(../img/right.png);
+    background-size: cover;
+    position: relative;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+}
+.arrow-icon-left {
+    background: url(../img/left.png);
+    background-size: cover;
+    position: relative;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+}
+.arrow-txt .arrow-iconcircle {
+    transition: stroke-dashoffset .3s ease;
+    stroke-dasharray: 95;
+    stroke-dashoffset: 95;
+}
+.arrow-txt:hover .arrow-icon-left .arrow-icon-right {
+    transform: translate3d(5px, 0, 0);
+}
+.arrow-txt:hover .arrow-iconcircle {
+    stroke-dashoffset: 0;
+}

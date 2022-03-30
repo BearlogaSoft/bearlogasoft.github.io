@@ -1,0 +1,66 @@
+body {
+    background-color: #cfba9f;
+    margin: 0px;
+}
+#table {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background-color: #6e6e6e;
+    bottom: 0;
+}
+#cactus {
+    position: absolute;
+    background: url(../img/cactus.png) no-repeat;
+    background-size: 100% 100%;
+    width: 12vw;
+    height: 40vh;
+    left: 30px;
+    bottom: 150px;
+}
+#laptop {
+    position: absolute;
+    background: url(../img/laptopt.png) no-repeat;
+    background-size: 100% 100%;
+    width: 85vw;
+    height: 95vh;
+    left: 7.5vw;
+    right: 7.5vw;
+    bottom: 0;
+}
+#screen {
+    background: url(../img/Desktop.png) no-repeat;
+    background-size: 100% 100%;
+    height: 74%;
+    width: 74%;    
+    margin-top: 3%;
+    margin-left: 13%;
+    
+}
+#game-patrick-icon {
+    position: absolute;
+    background: url(../img/gamePatrickIco.png);
+    background-size: 100% 100%;
+    width: 6vw;
+    height: 6.5vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor:pointer;
+}
+#exit-icon {
+    position: absolute;
+    background: url(../img/exitBat.png);
+    background-size: 100% 100%;
+    width: 6vw;
+    height: 6.5vh;
+    cursor:pointer;
+    margin-left: 10px;
+    margin-top: 60vh;
+}
+#game-patrick {
+    position:absolute;
+    z-index: 2;
+}
+.hide {
+    display: none;
+}

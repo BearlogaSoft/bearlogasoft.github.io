@@ -1,0 +1,147 @@
+body {
+    background-color: #87ceeb;
+    margin: 0px;
+}
+main {
+    
+    background: url(../img/rside.png) right repeat-y;
+    /* background-size: contain; */
+    background-color: #cfba9f;
+    height: calc(80vh - 300px);    
+}
+
+footer {
+    height: 20vh;
+    background-image:url(../img/floor3.jpg);    
+}
+
+#logo-img {
+    background:url(../img/headerEnd.png) no-repeat;
+    background-position: right bottom;
+    transition: 800ms;
+    height: 300px;
+    width: 100vw;
+    overflow: hidden;
+}
+#logo-img:hover {
+    background:url(../img/headerEndUFO.png); 
+    background-position: right bottom;
+    height: 300px;
+    width: 100vw;
+    overflow: hidden;
+}
+#top-img {
+    background:url(../img/tside.png);
+}
+
+
+#footer-img-right {
+    background: url(../img/rside.png) repeat-y;
+    background-size: contain;
+    background-position: right;
+    position: absolute;
+    right: 0;
+    width: 52px;
+    height: 20vh;
+
+}
+#page-id {
+    position: absolute;
+    visibility: hidden;
+}
+.text {
+    position: absolute;
+    font-family: Verdana, Tahoma;
+    color: black;
+    font-size: 1.2vw;
+    text-align: justify;
+    font-weight: 500;
+    top: 200px;
+    left: 0;
+    margin-left: 20px;
+    margin-right: 20vw;
+
+}
+#flower {
+    background: url(../img/flower.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    height: 30vh;
+    width: 10vw;
+    left: 46vw;
+    bottom: calc(20vh - 50px);
+}
+#table {
+    background: url(../img/table.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 32vh;
+    width: 30vw;
+    left: calc(50vw + 50px);
+    bottom: 0;
+    cursor:pointer;
+}
+#table:hover {
+    background: url(../img/tableOn.png) no-repeat;
+    background-size: contain;
+}
+#water-cooler {
+    background: url(../img/waterCooler.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 35vh;
+    width: 10vw;
+    right: 8vw;
+    bottom: calc(20vh - 50px);
+}
+#go-back {
+    position: absolute;
+    left: 0;
+    bottom: calc(100vh - 300px - calc(80vh - 300px));
+    height: 7vh;
+    width: 38vw;
+}
+
+p {
+    margin: 0px;
+}
+.hide {
+    display: none;
+}
+.arrow-txt {
+    font-family: Verdana, Tahoma;
+    color: #337AB7;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: 400;
+    height: 2vw;
+    line-height:2vw;
+    display: inline-block; 
+    margin: 20px;
+}
+.arrow-txt .arrow-icon-right {
+    background: url(../img/right.png);
+    background-size: cover;
+    position: relative;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+}
+.arrow-icon-left {
+    background: url(../img/left.png);
+    background-size: cover;
+    position: relative;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+}
+.arrow-txt .arrow-iconcircle {
+    transition: stroke-dashoffset .3s ease;
+    stroke-dasharray: 95;
+    stroke-dashoffset: 95;
+}
+.arrow-txt:hover .arrow-icon-left .arrow-icon-right {
+    transform: translate3d(5px, 0, 0);
+}
+.arrow-txt:hover .arrow-iconcircle {
+    stroke-dashoffset: 0;
+}

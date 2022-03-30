@@ -1,0 +1,200 @@
+body {
+    background-color: #87ceeb;
+    margin: 0px;
+}
+main {
+    background-color: #cfba9f;
+    background-image: url(../img/lside.png);
+    background-repeat: repeat-y;
+    height: calc(80vh - 300px);
+    
+}
+
+footer {
+    height: 20vh;
+    background-image:url(../img/floor3.jpg);
+    
+}
+header {
+    background:url(../img/headerStart.png) no-repeat;
+    background-position: left bottom;
+    height: 300px;
+    overflow: hidden;
+    transition: 800ms;
+}
+header:hover {
+    background:url(../img/headerStartOwn.png);
+    background-position: left bottom;
+}
+
+
+#footer-img-left {
+    background: url(../img/lside.png);
+    width: 52px;
+    height: 100%;
+
+}
+#portrait {
+    position: absolute;
+    top: 32vh;
+    left: 9vw;
+    height: 18vh;
+    width: 9vw;
+    background:url(../img/portrait.png) no-repeat;
+    background-size:contain;
+    cursor:pointer;
+}
+
+#bear-img {
+    position: absolute;
+    bottom: 0;
+    left: 55px;
+    height: 50%;
+    width: 30%;
+    background:url(../img/2.png) no-repeat;
+    background-size:contain;
+    background-position: bottom; 
+    margin: 0px;
+    padding: 0px;
+
+}
+#water-cooler {
+    background: url(../img/waterCooler.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 35vh;
+    width: 10vw;
+    left: 28%;
+    bottom: calc(20vh - 50px);
+}
+#page-id {
+    position: absolute;
+    visibility: hidden;
+}
+.text-style
+{
+    font-family: Verdana, Tahoma;
+    font-weight: 500;
+    color: black;
+    font-size: 1.3vw;
+    text-align: justify;
+}
+#prompt-text {
+    position: absolute;
+    top: 180px;
+    right: 0;
+    margin-left: calc(30% + 150px);
+    margin-right: 20px;
+}
+#text {
+    position: absolute;    
+    top: 280px;
+    right: 0;
+    margin-left: calc(30% + 150px);
+    margin-right: 20px;
+}
+#choice-next {
+    position: absolute;
+    top: 45vh;
+    left: 45vw;
+    right: 20px;
+    font-family: Verdana, Tahoma;
+    font-weight: 500;
+    color: #337AB7;
+    text-decoration: none;
+    font-size: 2vw;
+}
+.choice-text {
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+}
+.choice-text:hover
+{
+    background-color: #c2ac90;
+}
+#go-next {
+    position: absolute;
+    right: 0;
+    bottom: calc(100vh - 300px - calc(80vh - 300px));
+}
+
+p {
+    margin: 0px;
+}
+
+#mes {
+    font-size: 1.2vw;
+    display: flex;
+    position: absolute;
+    left: 18%;
+    bottom: 50%;
+}
+.hide {
+    display: none;
+}
+.msg-icn {
+    display: inline-block;
+    position: relative;
+    padding:  10px 20px;
+    color: black;
+    box-sizing: border-box;
+    max-width: 300px;
+    min-width: 80px;
+    min-height: 38px;
+  }
+  .msg-icn:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border: 2px solid #e5a002;
+    border-radius: 8px;
+    box-sizing: border-box;
+    clip-path: polygon(0% 105%, 0% 0%, 105% 0%, 105% 105%, 43px 105%, 43px 80%, 21px 80%, 21px 105%);
+  }
+  .msg-icn:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 20px;
+    background: #e5a002;
+    top: calc(100% - 1px);
+    left: 20px;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 0% 100%, 100% 0%, calc(100% - 2px) 0, 1px calc(100% - 2px), 1px 0);
+  }
+.arrow-3 {
+    font-family: Verdana, Tahoma;
+    font-weight: 500;
+    color: #337AB7;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2vw;
+    height: 2vw;
+    line-height:2vw;
+    display: inline-block; 
+    margin: 20px;
+}
+.arrow-3 .arrow-3-icon {
+    position: relative;
+    top: -1px;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+}
+.arrow-3 .arrow-3-iconcircle {
+    transition: stroke-dashoffset .3s ease;
+    stroke-dasharray: 95;
+    stroke-dashoffset: 95;
+}
+.arrow-3:hover .arrow-3-icon {
+    transform: translate3d(5px, 0, 0);
+}
+.arrow-3:hover .arrow-3-iconcircle {
+    stroke-dashoffset: 0;
+}
