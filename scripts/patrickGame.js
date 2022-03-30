@@ -41,8 +41,8 @@ var Menu = new Phaser.Class({
 	create: function () {
 
 		var bgMenu = this.add.sprite(0, 0, 'bgmenu').setAlpha(0.5);
-		bgMenu.displayWidth = gWidth;
-		bgMenu.scaleY = bgMenu.scaleX;
+		//bgMenu.displayWidth = gWidth;
+		//bgMenu.scaleY = bgMenu.scaleX;
 		
 		var nameGame = this.add.sprite(0, 0, 'logo');
 		//Кнопка Начать игру
