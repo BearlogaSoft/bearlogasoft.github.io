@@ -10,7 +10,7 @@ var imgs = [];
 
 //Заполняем массив ссылками
 for (i = 1; i <= imgCount; i++) {
-  imgs.push("../img/projectImg/" + imgName + i + ".png");
+  imgs.push("../img/projectImg/" + imgName + i + ".webp");
 }
 
 current = imgCount - 1;

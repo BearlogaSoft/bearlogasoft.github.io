@@ -4,7 +4,7 @@ body {
 }
 main {
     
-    background: url(../img/rside.png) right repeat-y;
+    background: url(../img/rside.webp) right repeat-y;
     /* background-size: contain; */
     background-color: #cfba9f;
     height: calc(80vh - 300px);    
@@ -12,11 +12,11 @@ main {
 
 footer {
     height: 20vh;
-    background-image:url(../img/floor3.jpg);    
+    background-image:url(../img/floor.webp);    
 }
 
 #logo-img {
-    background:url(../img/headerEnd.png) no-repeat;
+    background:url(../img/headerEnd.webp) no-repeat;
     background-position: right bottom;
     transition: 800ms;
     height: 300px;
@@ -24,19 +24,19 @@ footer {
     overflow: hidden;
 }
 #logo-img:hover {
-    background:url(../img/headerEndUFO.png); 
+    background:url(../img/headerEndUFO.webp); 
     background-position: right bottom;
     height: 300px;
     width: 100vw;
     overflow: hidden;
 }
 #top-img {
-    background:url(../img/tside.png);
+    background:url(../img/tside.webp);
 }
 
 
 #footer-img-right {
-    background: url(../img/rside.png) repeat-y;
+    background: url(../img/rside.webp) repeat-y;
     background-size: contain;
     background-position: right;
     position: absolute;
@@ -63,16 +63,16 @@ footer {
 
 }
 #flower {
-    background: url(../img/flower.png) no-repeat;
+    background: url(../img/flower.webp) no-repeat;
     background-size: 100% 100%;
     position: absolute;
     height: 30vh;
     width: 10vw;
-    left: 46vw;
+    right: 3vw;
     bottom: calc(20vh - 50px);
 }
 #table {
-    background: url(../img/table.png) no-repeat;
+    background: url(../img/table.webp) no-repeat;
     background-size: contain;
     position: absolute;
     height: 32vh;
@@ -82,16 +82,16 @@ footer {
     cursor:pointer;
 }
 #table:hover {
-    background: url(../img/tableOn.png) no-repeat;
+    background: url(../img/tableOn.webp) no-repeat;
     background-size: contain;
 }
 #water-cooler {
-    background: url(../img/waterCooler.png) no-repeat;
+    background: url(../img/waterCooler.webp) no-repeat;
     background-size: contain;
     position: absolute;
     height: 35vh;
     width: 10vw;
-    right: 8vw;
+    right: 10vw;
     bottom: calc(20vh - 50px);
 }
 #go-back {
@@ -121,14 +121,14 @@ p {
     margin: 20px;
 }
 .arrow-txt .arrow-icon-right {
-    background: url(../img/right.png);
+    background: url(../img/right.webp);
     background-size: cover;
     position: relative;
     transition: transform 0.3s ease;
     vertical-align: middle;
 }
 .arrow-icon-left {
-    background: url(../img/left.png);
+    background: url(../img/left.webp);
     background-size: cover;
     position: relative;
     transition: transform 0.3s ease;

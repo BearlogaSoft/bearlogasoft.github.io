@@ -4,7 +4,7 @@ body {
 }
 main {
     background-color: #cfba9f;
-    background-image: url(../img/lside.png);
+    background-image: url(../img/lside.webp);
     background-repeat: repeat-y;
     height: calc(80vh - 300px);
     
@@ -12,24 +12,24 @@ main {
 
 footer {
     height: 20vh;
-    background-image:url(../img/floor3.jpg);
+    background-image:url(../img/floor.webp);
     
 }
 header {
-    background:url(../img/headerStart.png) no-repeat;
+    background:url(../img/headerStart.webp) no-repeat;
     background-position: left bottom;
     height: 300px;
     overflow: hidden;
     transition: 800ms;
 }
 header:hover {
-    background:url(../img/headerStartOwn.png);
+    background:url(../img/headerStartOwn.webp);
     background-position: left bottom;
 }
 
 
 #footer-img-left {
-    background: url(../img/lside.png);
+    background: url(../img/lside.webp);
     width: 52px;
     height: 100%;
 
@@ -40,7 +40,7 @@ header:hover {
     left: 9vw;
     height: 18vh;
     width: 9vw;
-    background:url(../img/portrait.png) no-repeat;
+    background:url(../img/portrait.webp) no-repeat;
     background-size:contain;
     cursor:pointer;
 }
@@ -51,7 +51,7 @@ header:hover {
     left: 55px;
     height: 50%;
     width: 30%;
-    background:url(../img/2.png) no-repeat;
+    background:url(../img/bear.webp) no-repeat;
     background-size:contain;
     background-position: bottom; 
     margin: 0px;
@@ -59,7 +59,7 @@ header:hover {
 
 }
 #water-cooler {
-    background: url(../img/waterCooler.png) no-repeat;
+    background: url(../img/waterCooler.webp) no-repeat;
     background-size: contain;
     position: absolute;
     height: 35vh;
@@ -79,18 +79,11 @@ header:hover {
     font-size: 1.3vw;
     text-align: justify;
 }
-#prompt-text {
-    position: absolute;
-    top: 180px;
-    right: 0;
-    margin-left: calc(30% + 150px);
-    margin-right: 20px;
-}
 #text {
     position: absolute;    
-    top: 280px;
+    top: 200px;
     right: 0;
-    margin-left: calc(30% + 150px);
+    margin-left: calc(30% + 140px);
     margin-right: 20px;
 }
 #choice-next {

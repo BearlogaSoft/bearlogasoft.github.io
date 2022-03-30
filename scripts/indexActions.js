@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   switch (visitNumber) {
     case 2:
       $("#choice-next").addClass("hide");
-      $("#text").removeClass("hide");
+      $("#BIP-text").removeClass("hide");
       $("#go-next").removeClass("hide");
       document.head.append(scrolScript);
       flagBIPAgain = true;
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     case 4:
     case 5:
       $("#choice-next").addClass("hide");
-      $("#text").removeClass("hide");
+      $("#BIP-text").removeClass("hide");
       $("#go-next").removeClass("hide");
       document.head.append(scrolScript);
       if (visitNumber == 4) flagClick = true;
@@ -44,7 +44,7 @@ $(document).ready(function () {
 
   $("#choice-next-BIP").on("click", function (event) {
     $("#choice-next").addClass("hide");
-    $("#text").removeClass("hide");
+    $("#BIP-text").removeClass("hide");
     $("#prompt-text").removeClass("hide");
     $("#go-next").removeClass("hide");
     document.head.append(scrolScript);
@@ -61,7 +61,7 @@ $(document).ready(function () {
 
   $("#choice-next-BIP-again").on("click", function (event) {
     $("#choice-next").addClass("hide");
-    $("#text").removeClass("hide");
+    $("#BIP-text").removeClass("hide");
     flagClick = true;
   });
 

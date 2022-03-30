@@ -10,12 +10,12 @@ main {
 
 footer {
     height: 20vh;
-    background-image:url(../img/floor3.jpg);
+    background-image:url(../img/floor.webp);
     
 }
 
 #top-img {
-    background:url(../img/tside.png);
+    background:url(../img/tside.webp);
     height: 300px;
 }
 .text {
@@ -27,10 +27,10 @@ footer {
 }
 #project-text {
     position: absolute;
-    top: 180px;
+    top: 170px;
     right: 0;
     left: 0;
-    margin-left: calc(40vw + 110px);
+    margin-left: calc(40vw + 100px);
     margin-right: 20px;
 }
 #project-text-info {
@@ -41,7 +41,7 @@ footer {
     margin-left: 56vw ;
 }
 #tv {
-    background:url(../img/tv.png) no-repeat;
+    background:url(../img/tv.webp) no-repeat;
     background-size: 100% 100%;
     position: absolute;
     height: 40vh;
@@ -70,7 +70,7 @@ div {
     overflow:hidden;
   }
 #sofa {
-    background: url(../img/sofa.png) no-repeat;
+    background: url(../img/sofa.webp) no-repeat;
     background-size: 100% 100%;
     position: absolute;
     height: 25vh;
@@ -79,7 +79,7 @@ div {
     bottom: calc(20vh - 90px);
 }
 #control-panel {
-    background: url(../img/controlPanel.png);
+    background: url(../img/controlPanel.webp);
     background-size: 100% 100%;
     height: 5vh;
     width: 3vw;
@@ -88,7 +88,7 @@ div {
     cursor:pointer;
 }
 #flower {
-    background: url(../img/flower.png) no-repeat;
+    background: url(../img/flower.webp) no-repeat;
     background-size: 100% 100%;
     position: absolute;
     height: 30vh;
@@ -104,7 +104,7 @@ div {
     width: 45vw;
 }
 #info {
-    background: url(../img/info.png) no-repeat;
+    background: url(../img/info.webp) no-repeat;
     background-size: 100% 100%;
     position: absolute;
     height: 32vh;
@@ -142,14 +142,14 @@ div {
     margin: 20px;
 }
 .arrow-txt .arrow-icon-right {
-    background: url(../img/right.png);
+    background: url(../img/right.webp);
     background-size: cover;
     position: relative;
     transition: transform 0.3s ease;
     vertical-align: middle;
 }
 .arrow-icon-left {
-    background: url(../img/left.png);
+    background: url(../img/left.webp);
     background-size: cover;
     position: relative;
     transition: transform 0.3s ease;
