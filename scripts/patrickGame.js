@@ -181,12 +181,12 @@ var Game = new Phaser.Class({
        	
 		//Управление персонажем
 	if (cursors.left.isDown){
-        player.setVelocityX(-160);
+        player.setVelocityX(-180);
 		player.anims.play('left', true);
 
     }
     else if (cursors.right.isDown){
-        player.setVelocityX(160);
+        player.setVelocityX(180);
 		player.anims.play('right', true);
     }
 	    else {
